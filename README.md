@@ -36,3 +36,12 @@ Esse repositório tem como obejtivo listar comandos do git, visando facilitar o 
 `git commit -am " <menssagem> "` : commit sem a necessidade de adicionar arquivos modificados ante.
 
 `git commit --amen -m " <menssagem> "` : corrigir a mensagem do commit.
+
+
+##### Comandos para utilização do Alias
+
+`git config --global alias.<sigla para abreviar os comandos> " <comandos para serem salvos> " ` : salvar em config uma abreviação para comandos extensos, usando alias.
+
+`git config --global -l `: visualiza os alias salvos em config sem modificar.
+
+`git config --global -e `: visualiza os alias salvos em config com possibilidade de modificar.

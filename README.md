@@ -38,10 +38,23 @@ Esse repositório tem como obejtivo listar comandos do git, visando facilitar o 
 `git commit --amen -m " <menssagem> "` : corrigir a mensagem do commit.
 
 
-##### Comandos para utilização do Alias
+#### Comandos para utilização do Alias
 
 `git config --global alias.<sigla para abreviar os comandos> " <comandos para serem salvos> " ` : salvar em config uma abreviação para comandos extensos, usando alias.
 
 `git config --global -l `: visualiza os alias salvos em config sem modificar.
 
 `git config --global -e `: visualiza os alias salvos em config com possibilidade de modificar.
+
+
+#### Diferentes formas de adicionar arquivos
+
+`git add "*.<tipo de arquivo>"`: adiciona todos os arquivos daquele tipo no projeto inteiro.
+
+`git add "*.<tipo de arquivo>"`: adiciona todos os arquivos daquele tipo na pasta.
+
+`git add --all`: adiciona todos os arquivos.
+
+`git add <pasta>/`: adiciona todos os arquivos da pasta.
+
+`git add <pasta>/<tipo de arquivos>`: adiciona todos os arquivos da pasta que são de determinado tipo (ex.: .png).

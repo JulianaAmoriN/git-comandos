@@ -15,12 +15,6 @@ Esse repositório tem como obejtivo listar comandos do git, visando facilitar o 
 
 `git push` : envia os commits para o repositório remoto.
 
-`cd <nome da pasta>` : abre uma pasta.
-
-`ls` : lista as pastas.
-
-`ls -al` : lista todas as pastas, também as ocultas.
-
 `git checkout -b <nome da branch>` : cria uma nova branch.
 
 `git checkout <nome da branch>` : atalho para a branch.
@@ -38,7 +32,16 @@ Esse repositório tem como obejtivo listar comandos do git, visando facilitar o 
 `git commit --amen -m " <menssagem> "` : corrigir a mensagem do commit.
 
 
-#### Comandos para utilização do Alias
+#### Terminal Shell 
+
+`cd <nome da pasta>` : abre uma pasta.
+
+`ls` : lista as pastas.
+
+`ls -al` : lista todas as pastas, também as ocultas.
+
+
+#### Configuração Alias
 
 `git config --global alias.<sigla para abreviar os comandos> " <comandos para serem salvos> " ` : salvar em config uma abreviação para comandos extensos, usando alias.
 

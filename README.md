@@ -32,3 +32,7 @@ Esse repositório tem como obejtivo listar comandos do git, visando facilitar o 
 `git log` : lista commits realizados.
 
 `git init`: inicializa o git no projeto localmente.
+
+`git commit -am " <menssagem> "` : commit sem a necessidade de adicionar arquivos modificados ante.
+
+`git commit --amen -m " <menssagem> "` : corrigir a mensagem do commit.

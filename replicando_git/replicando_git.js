@@ -1,4 +1,4 @@
-//esse arquivo foi criada baseada nessa publicação -> https://gabrieluizramos.com.br/versionamento-e-estrutura-de-dados
+//esse arquivo foi criado baseado nessa publicação -> https://gabrieluizramos.com.br/versionamento-e-estrutura-de-dados
 
 const git = {
   head: null,

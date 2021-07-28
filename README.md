@@ -95,3 +95,16 @@ Esse repositório tem como obejtivo listar comandos do git, visando facilitar o 
 #### .Git ignore
 
 `.gitignore` : arquivo para colocar nomes de arquivos e pastas que não queremos subir para o github.
+
+
+#### Etiquetas (tags)
+
+`git tag <nome da tag>` : criar tag.
+
+`git tag` : vizualizar todas as tags criadas.
+
+`git tag -d <nome da tag>` : apagar tag.
+
+`git tag -a <nome da tag> <identificação do commit> -m " <menssagem da tag> "` : criar tag e adicionar em determinado commit.
+
+`git show <nome da tag>` : vizualizar informações do commit com a tag.

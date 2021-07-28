@@ -33,6 +33,15 @@ Esse repositório tem como obejtivo listar comandos do git, visando facilitar o 
 
 `git commit --amen -m " <menssagem> "` : corrigir a mensagem do commit.
 
+`git branch  <nome da branch>` : criar uma branch.
+
+`git checkout  <nome da branch>` : mover para a branch.
+
+`git checkout -b  <nome da branch>` : criar e entrar na branch.
+
+`git marge <nome da branch>` : unir a branch a master.
+
+`git branch -d <nome da branch>` : depois de mergear a branch é uma boa pratica apaga-lá e se for necessário realizar mais alterações criar uma nova branch.
 
 #### Terminal Shell 
 
@@ -79,10 +88,10 @@ Esse repositório tem como obejtivo listar comandos do git, visando facilitar o 
 
 `git reflog` : mostra o histórico de tudo que foi feito. 
 
-`git mv <nome do arquivo> <novo nome do arquivo>` : renomear arquivo
+`git mv <nome do arquivo> <novo nome do arquivo>` : renomear arquivo.
 
-`git rm <nome do arquivo>`: remover arquivo
+`git rm <nome do arquivo>`: remover arquivo.
 
 #### .Git ignore
 
-`.gitignore` : arquivo para colocar nomes de arquivos e pastas que não queremos subir para o github
+`.gitignore` : arquivo para colocar nomes de arquivos e pastas que não queremos subir para o github.

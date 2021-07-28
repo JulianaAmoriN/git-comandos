@@ -5,6 +5,8 @@ Esse repositório tem como obejtivo listar comandos do git, visando facilitar o 
 #### Comandos mais usados 
 
 
+`git pull` : atualiza o repositório local com o remoto
+
 `git clone` : cria uma pasta em seu computador com o nome do repositório e clona todos os arquivos localmente.
 
 `git add .` : adiciona todos os arquivos antes de commitá-lo.
@@ -34,6 +36,8 @@ Esse repositório tem como obejtivo listar comandos do git, visando facilitar o 
 
 #### Terminal Shell 
 
+`pwd` : mostra endereço atual.
+
 `cd <nome da pasta>` : abre uma pasta.
 
 `ls` : lista as pastas.
@@ -62,5 +66,23 @@ Esse repositório tem como obejtivo listar comandos do git, visando facilitar o 
 
 `git add <pasta>/<tipo de arquivos>`: adiciona todos os arquivos da pasta que são de determinado tipo (ex.: .png).
 
+`git add -u` : adiciona apenas arquivos que foram modificados e excluídos.
 
-####
+
+#### Commits e manipulação de arquivos
+
+`git reset --soft <identificação do commit>` : reverte para o commit selecionado.
+
+`git reset --mixed <identificação do commit>` : apaga o commit da linha do tempo, porém mantem as modificações.
+
+`git reset --hard <identificação do commit>` : apaga as modificações e os commits realizados após o commit que retornamos, ou retorna ao estado do commit identificado.
+
+`git reflog` : mostra o histórico de tudo que foi feito. 
+
+`git mv <nome do arquivo> <novo nome do arquivo>` : renomear arquivo
+
+`git rm <nome do arquivo>`: remover arquivo
+
+#### .Git ignore
+
+`.gitignore` : arquivo para colocar nomes de arquivos e pastas que não queremos subir para o github

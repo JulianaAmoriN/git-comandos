@@ -56,8 +56,11 @@ Esse repositório tem como obejtivo listar comandos do git, visando facilitar o 
 
 `git add "*.<tipo de arquivo>"`: adiciona todos os arquivos daquele tipo na pasta.
 
-`git add --all`: adiciona todos os arquivos.
+`git add --all` ou `git add -A`: adiciona todos os arquivos.
 
 `git add <pasta>/`: adiciona todos os arquivos da pasta.
 
 `git add <pasta>/<tipo de arquivos>`: adiciona todos os arquivos da pasta que são de determinado tipo (ex.: .png).
+
+
+####

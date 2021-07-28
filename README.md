@@ -106,3 +106,13 @@ Esse repositório tem como obejtivo listar comandos do git, visando facilitar o 
 `git tag -a <nome da tag> <identificação do commit> -m " <menssagem da tag> "` : criar tag e adicionar em determinado commit.
 
 `git show <nome da tag>` : vizualizar informações do commit com a tag.
+
+#### Contibuições :)
+
+As contribuições são o que tornam a comunidade de código aberto um lugar incrível para aprender, inspirar e criar. Quaisquer contribuições que você fizer são ** muito apreciadas **.
+
+    1. Faça um fork do projeto
+    2. Crie seu Feature Branch (git checkout -b feature / AmazingFeature)
+    3. Faça commit de suas alterações (git commit -m 'Add some AmazingFeature')
+    4. Envie para a Branch (git push origin feature / AmazingFeature)
+    5. Abra uma solicitação pull

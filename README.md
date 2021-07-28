@@ -90,7 +90,7 @@ Esse repositório tem como obejtivo listar comandos do git, visando facilitar o 
 
 `git rm <nome do arquivo>`: remover arquivo.
 
-#### .Git ignore
+#### Git ignore
 
 `.gitignore` : arquivo para colocar nomes de arquivos e pastas que não queremos subir para o github.
 

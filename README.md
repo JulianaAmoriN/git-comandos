@@ -23,6 +23,8 @@ Esse repositório tem como obejtivo listar comandos do git, visando facilitar o 
 
 `git checkout -- .` : retornar para as alterações do último commit.
 
+`git checkout -- <nome do arquivo>.` : desfaz a última alteração do arquivo.
+
 `git log` : listar commits realizados.
 
 `git init`: inicializar o git no projeto localmente.
@@ -40,6 +42,8 @@ Esse repositório tem como obejtivo listar comandos do git, visando facilitar o 
 `git marge <nome da branch>` : unir a branch a master.
 
 `git branch -d <nome da branch>` : depois de mergear a branch é uma boa pratica apaga-lá, se for necessário realizar mais alterações criar uma nova branch.
+
+`git marge <nome da branch>`: fazer marge com a master, deve estar na master. 
 
 #### Terminal Shell 
 
@@ -107,6 +111,40 @@ Esse repositório tem como obejtivo listar comandos do git, visando facilitar o 
 
 `git show <nome da tag>` : vizualizar informações do commit com a tag.
 
+
+#### WIP (Working in Progress)
+
+`git stash` : guardada as alterações localmente "de forma oculta" em uma área temporal.
+
+`git stash pop` : extrai as modificações do stash para continuar mexendo.
+
+`git stash list` : mostra se existe algum elemento em stash.
+
+`git stash drop` : apagar a lista de stash.
+
+`git stash apply` : restaura o último registro em stash.
+
+`git show stash stash@{<número do stash>}` : mostrar as modificações de cada stash.
+
+`git stash save "<mensagem sobre o stage>"` : guardada as alterações localmente "de forma oculta" em uma área temporal com uma mensagem para descrição.
+
+`git stash clear` : apaga todo que está em stage permanentemente.
+
+#### Git Rabase
+
+`git rebase master` : ataualizará a branch com a master, deve estar dentro da branch.
+
+`git rebase -i HEAD~<quantidade de commits>` : abre menu interativo.
+
+`(squash)` : unir dois commits ou mais em um.
+
+`(reword)` : modificar mensagem do commit.
+
+`(edit)` : editar as modificações feitas.
+
+`git reset HEAD^` : permite voltar as alterações sem destruir. 
+
+`git rebas --continue` : após concluir as modificações salva e conclui o rebase edit.
 #### Contibuições :)
 
 As contribuições são o que tornam a comunidade de código aberto um lugar incrível para aprender, inspirar e criar. Quaisquer contribuições que você fizer são ** muito apreciadas **.

@@ -84,4 +84,4 @@ repo
   .status() // Nothing to commit
   .log(); // Exibe histórico de todos os commits
 
-//para rodar o arquivo no terminal escreva: node replicando_git.js
+//para rodar o arquivo no terminal escreva: node replicandoGit.js

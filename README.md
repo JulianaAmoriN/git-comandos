@@ -7,6 +7,10 @@ Esse repositório tem como obejtivo listar comandos do git, visando facilitar o 
 
 `git pull` : atualizar o repositório local com o remoto.
 
+`git push --tags` : subir as tags para o repositório remoto.
+
+`git fetch` : atualiza o repositório local mas não substitui.
+
 `git clone` : criar uma pasta em seu computador com o nome do repositório e clona todos os arquivos localmente.
 
 `git add .` : adicionar todos os arquivos antes de commitá-lo.
@@ -145,6 +149,15 @@ Esse repositório tem como obejtivo listar comandos do git, visando facilitar o 
 `git reset HEAD^` : permite voltar as alterações sem destruir. 
 
 `git rebas --continue` : após concluir as modificações salva e conclui o rebase edit.
+
+#### Markdown
+[Tutorial de Markdown](https://www.markdowntutorial.com/)
+
+[Editor de Markdown](https://dillinger.io/)
+
+[Repositótio com tags Markdown](https://github.com/codarme/lesson-markdown)
+
+
 #### Contibuições :)
 
 As contribuições são o que tornam a comunidade de código aberto um lugar incrível para aprender, inspirar e criar. Quaisquer contribuições que você fizer são ** muito apreciadas **.

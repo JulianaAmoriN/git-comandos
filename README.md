@@ -112,7 +112,7 @@ Esse repositório tem como obejtivo listar comandos do git, visando facilitar o 
 
 
 
-#### Git ignore
+#### Atualizando Repositótio
 
 `git remote -v` : ver os repositórios remotos que temos acesso.
 

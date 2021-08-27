@@ -7,6 +7,8 @@ Esse repositório tem como obejtivo listar comandos do git, visando facilitar o 
 
 `git pull` : atualizar o repositório local com o remoto.
 
+`git pull --all` : atualizar o reposítorio local com o remoto (trás branchs de outras pessoas).
+
 `git push --tags` : subir as tags para o repositório remoto.
 
 `git fetch` : atualiza o repositório local mas não substitui.
@@ -47,9 +49,19 @@ Esse repositório tem como obejtivo listar comandos do git, visando facilitar o 
 
 `git branch -d <nome da branch>` : depois de mergear a branch é uma boa pratica apaga-lá, se for necessário realizar mais alterações criar uma nova branch.
 
-`git marge <nome da branch>`: fazer marge com a master, deve estar na master. 
+`git marge <nome da branch>`: fazer marge com a master, deve estar na master.
+
+`git branch -m master main` : renomeia a master para main. 
+
+`git remote prune origin` : atualizar as referências do repositório local com remoto.
+
+`git push origin :<nome da branch>` : excluir a branch do repositório remoto.
+
+`git reflog` : ver a linha do tempo do git.
 
 #### Terminal Shell 
+
+`mkdir <nome>` : criar pasta
 
 `pwd` : mostrar endereço atual.
 
@@ -98,6 +110,17 @@ Esse repositório tem como obejtivo listar comandos do git, visando facilitar o 
 
 `git rm <nome do arquivo>`: remover arquivo.
 
+
+
+#### Git ignore
+
+`git remote -v` : ver os repositórios remotos que temos acesso.
+
+`git remote add upstream <link do repositorio original>` : agregar o reporitório de base do fork para manter o projeto forkado atualizado.
+
+`git pull upstream` : faz o pull com o repositório original do fork.
+
+
 #### Git ignore
 
 `.gitignore` : arquivo para colocar nomes de arquivos e pastas que não queremos subir para o github.
@@ -114,6 +137,8 @@ Esse repositório tem como obejtivo listar comandos do git, visando facilitar o 
 `git tag -a <nome da tag> <identificação do commit> -m " <menssagem da tag> "` : criar tag e adicionar em determinado commit.
 
 `git show <nome da tag>` : vizualizar informações do commit com a tag.
+
+`git push --tags`
 
 
 #### WIP (Working in Progress)
@@ -167,3 +192,8 @@ As contribuições são o que tornam a comunidade de código aberto um lugar inc
     3. Faça commit de suas alterações (git commit -m 'Add some AmazingFeature')
     4. Envie para a Branch (git push origin feature / AmazingFeature)
     5. Abra uma solicitação pull
+
+
+#### Links 
+
+[Guides GitHub](https://guides.github.com/)

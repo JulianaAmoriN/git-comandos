@@ -1,7 +1,22 @@
 # _Comandos Git_  
 
-Esse repositório tem como obejtivo listar comandos do git, visando facilitar o dia a dia do desenvolvedor. 
+Esse repositório tem como obejtivo listar comandos do git, visando facilitar o dia a dia do desenvolvedor.
 
+# Índice
+1. [Comandos mais usados ](#Comandos-mais-usados)
+2. [Terminal Shell ](#terminal-shell)
+3. [Configuração Alias](#configuração-alias)
+4. [Diferentes formas de adicionar arquivos](#diferentes-formas-de-adicionar-arquivos)
+5. [Commits e manipulação de arquivos](#commits-e-manipulação-de-arquivos)
+6. [Atualizando Repositótio](#atualizando-repositótio)
+7. [Git ignore](#git-ignore)
+8. [Etiquetas (tags)](#etiquetas-tags)
+9. [WIP (Working in Progress)](#wip-working-in-progress)
+10. [Git Rabase](#git-rabase)
+11. [Markdown](#markdown)
+12. [Git Pages](#git-pages)
+13. [Contibuições :)](#contribuicoes)
+14. [Links](#links)
 #### Comandos mais usados 
 
 
@@ -175,12 +190,18 @@ Esse repositório tem como obejtivo listar comandos do git, visando facilitar o 
 
 `git rebas --continue` : após concluir as modificações salva e conclui o rebase edit.
 
+
 #### Markdown
 [Tutorial de Markdown](https://www.markdowntutorial.com/)
 
 [Editor de Markdown](https://dillinger.io/)
 
 [Repositótio com tags Markdown](https://github.com/codarme/lesson-markdown)
+
+
+
+#### Git Pages
+[Tutorial para criação de git pages](https://www.treinaweb.com.br/blog/criando-paginas-para-repositorios-com-o-github-pages)
 
 
 #### Contibuições :)
